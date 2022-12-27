@@ -147,7 +147,7 @@ export default function Home ()
 
           </p>
           <p>
-            These are sure-fire ways to get people's attention in a crowded marketplace.
+            These are sure-fire ways to get people&apos;s attention in a crowded marketplace.
 
           </p>
           <p>
