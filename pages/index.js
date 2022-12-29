@@ -13,10 +13,18 @@ export default function Home ()
         <title>Marc Aldo</title>
         <meta name="description" content="Marc Aldo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/toplogo.jpeg" />
       </Head>
       <main className={ styles.main }>
         <div className="intro">
+          <Image
+            className='top-logo sd-img'
+            src="/toplogo.jpeg"
+            alt="logo"
+            width={ 400 }
+            height={ 600 }
+            priority
+          />
           <p className='intro-text'>
             Attention Owners and Managers of Ecom companies:
 
@@ -62,7 +70,7 @@ export default function Home ()
           <Image
             className='sd-img'
             src="/aldo.jpg"
-            alt="13"
+            alt="Marc Aldo"
             width={ 400 }
             height={ 600 }
             priority
